@@ -1,0 +1,248 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Libraries &mdash; Better Scientific Graphics with Matplotlib</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="Better Scientific Graphics with Matplotlib" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Intermediate Matplotlib
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Libraries</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#matplotlib-seaborn-etc">Matplotlib, Seaborn, etc.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bokeh">Bokeh</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plotly">Plotly</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#d3-js-vega-vega-lite-altair">D3.js, Vega, Vega-lite, Altair</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matplotlib.html">Matplotlib API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Intermediate Matplotlib</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Libraries</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/libraries.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="libraries">
+<h1>Libraries<a class="headerlink" href="#libraries" title="Permalink to this headline">¶</a></h1>
+<a class="reference internal image-reference" href="https://www.anaconda.com/wp-content/uploads/2019/01/PythonVisLandscape.jpg"><img alt="https://www.anaconda.com/wp-content/uploads/2019/01/PythonVisLandscape.jpg" src="https://www.anaconda.com/wp-content/uploads/2019/01/PythonVisLandscape.jpg" style="width: 80%;" /></a>
+<p><a class="reference external" href="https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/">source</a></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="matplotlib-seaborn-etc">
+<h2>Matplotlib, Seaborn, etc.<a class="headerlink" href="#matplotlib-seaborn-etc" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://matplotlib.org">Matplotlib</a> is the <em>original</em> plotting library for Python.
+Its high level interface is intentionally consistent with <a class="reference external" href="https://www.mathworks.com/help/matlab/ref/plot.html">MATLAB</a>.</p>
+<p><a class="reference external" href="https://seaborn.pydata.org">Seaborn</a> is built on top of Matplotlib and offers a
+richer aesthetic with a focus on statistical visualizations. <a class="reference external" href="https://scitools.org.uk/cartopy/docs/latest/">Cartopy</a>
+similarly builds on Matplotlib with respect to geospatial data.</p>
+</div>
+<div class="section" id="bokeh">
+<h2>Bokeh<a class="headerlink" href="#bokeh" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://bokeh.pydata.org/en/latest/">Bokeh</a> is an interactive visualization library that
+targets modern web browsers for presentation. Its goal is to provide elegant, concise construction
+of versatile graphics, and to extend this capability with high-performance interactivity over very
+large or streaming datasets. Bokeh can help anyone who would like to quickly and easily create interactive
+plots, dashboards, and data applications.</p>
+</div>
+<div class="section" id="plotly">
+<h2>Plotly<a class="headerlink" href="#plotly" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="https://plot.ly/python/">plotly</a> Python library (plotly.py) is an interactive, open-source
+plotting library that supports over 40 unique chart types covering a wide range of statistical, financial,
+geographic, scientific, and 3-dimensional use-cases.</p>
+</div>
+<div class="section" id="d3-js-vega-vega-lite-altair">
+<h2>D3.js, Vega, Vega-lite, Altair<a class="headerlink" href="#d3-js-vega-vega-lite-altair" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://d3js.org">D3.js</a> is a JavaScript library for manipulating documents based on data. D3 helps you
+bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities
+of modern browsers without tying yourself to a proprietary framework, combining powerful visualization
+components and a data-driven approach to DOM manipulation.</p>
+<p><a class="reference external" href="https://vega.github.io/vega/">Vega</a> and <a class="reference external" href="https://vega.github.io/vega-lite/">Vega-lite</a> provide a
+high-level interface for specifying D3.js charts. <a class="reference external" href="https://altair-viz.github.io">Altair</a> is a Python
+interface to Vega.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Better Scientific Graphics with Matplotlib" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Geoffrey Lentner
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
